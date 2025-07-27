@@ -1,0 +1,231 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 27 Jul 2025 17:11:19 at https://xopepsminhdang.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://xopepsminhdang.com/ -O1 "C:\My Web Sites\XopKinhBac" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:11:43	Error: 	"Method Not Allowed" (405) at link https://xopepsminhdang.com/xmlrpc.php (from https://xopepsminhdang.com/)
+17:11:50	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-content/uploads/2021/08/icon-zalo.png (from https://xopepsminhdang.com/)
+17:11:50	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-content/uploads/2021/08/chat.svg (from https://xopepsminhdang.com/)
+17:13:24	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.7.1 (from https://xopepsminhdang.com/)
+17:13:24	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=49
+17:13:24	Warning: 	File has moved from https://xopepsminhdang.com/?p=49 to https://xopepsminhdang.com/ve-chung-toi/
+17:13:25	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=314
+17:13:25	Warning: 	File has moved from https://xopepsminhdang.com/?p=314 to https://xopepsminhdang.com/xop-eps-dinh-hinh/
+17:13:25	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh/)
+17:13:25	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh/)
+17:13:26	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps-dinh-hinh/
+17:13:26	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps-dinh-hinh/ to https://xopepsminhdang.com/xop-eps-dinh-hinh/
+17:13:26	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps-minh-dang/
+17:13:26	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps-minh-dang/ to https://xopepsminhdang.com/xop-eps-minh-dang/
+17:13:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/ton-nen-chong-nong-trong-xay-dung/feed/ (from https://xopepsminhdang.com/ton-nen-chong-nong-trong-xay-dung/)
+17:13:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-json/wp/v2/product_cat/52 (from https://xopepsminhdang.com/hang-dong-goi/)
+17:13:55	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=248
+17:13:55	Warning: 	File has moved from https://xopepsminhdang.com/?p=248 to https://xopepsminhdang.com/lien-he/
+17:13:55	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=407
+17:13:55	Warning: 	File has moved from https://xopepsminhdang.com/?p=407 to https://xopepsminhdang.com/xop-eps-minh-dang/
+17:13:55	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-minh-dang%2F (from https://xopepsminhdang.com/xop-eps-minh-dang/)
+17:13:55	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-minh-dang%2F&format=xml (from https://xopepsminhdang.com/xop-eps-minh-dang/)
+17:13:59	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=405
+17:13:59	Warning: 	File has moved from https://xopepsminhdang.com/?p=405 to https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-dong-hang/
+17:13:59	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-dinh-hinh-dong-hang%2F (from https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-dong-hang/)
+17:13:59	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-dinh-hinh-dong-hang%2F&format=xml (from https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-dong-hang/)
+17:14:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/the-san-pham/xop-eps-dinh-hinh-dong-hang/ (from https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-dong-hang/)
+17:14:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-json/wp/v2/product/383 (from https://xopepsminhdang.com/xop-eps-dinh-hinh-hop-dong-hang/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=383
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=383 to https://xopepsminhdang.com/xop-eps-dinh-hinh-hop-dong-hang/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-hop-dong-hang%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-hop-dong-hang/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-hop-dong-hang%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-hop-dong-hang/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=381
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=381 to https://xopepsminhdang.com/xop-eps-dong-goi-hang-hoa/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dong-goi-hang-hoa%2F (from https://xopepsminhdang.com/xop-eps-dong-goi-hang-hoa/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dong-goi-hang-hoa%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dong-goi-hang-hoa/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=379
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=379 to https://xopepsminhdang.com/xop-eps-dinh-hinh-21/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-21%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-21/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-21%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-21/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=377
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=377 to https://xopepsminhdang.com/xop-eps-dinh-hinh-20/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-20%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-20/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-20%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-20/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=375
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=375 to https://xopepsminhdang.com/xop-eps-dinh-hinh-19/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-19%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-19/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-19%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-19/)
+17:14:00	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=373
+17:14:00	Warning: 	File has moved from https://xopepsminhdang.com/?p=373 to https://xopepsminhdang.com/xop-eps-dinh-hinh-18/
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-18%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-18/)
+17:14:00	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-18%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-18/)
+17:14:02	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=371
+17:14:02	Warning: 	File has moved from https://xopepsminhdang.com/?p=371 to https://xopepsminhdang.com/xop-eps-dinh-hinh-17/
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-17%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-17/)
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-17%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-17/)
+17:14:02	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=369
+17:14:02	Warning: 	File has moved from https://xopepsminhdang.com/?p=369 to https://xopepsminhdang.com/xop-eps-dinh-hinh-16/
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-16%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-16/)
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-16%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-16/)
+17:14:02	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=367
+17:14:02	Warning: 	File has moved from https://xopepsminhdang.com/?p=367 to https://xopepsminhdang.com/xop-eps-dinh-hinh-15/
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-15%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-15/)
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-15%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-15/)
+17:14:02	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=365
+17:14:02	Warning: 	File has moved from https://xopepsminhdang.com/?p=365 to https://xopepsminhdang.com/xop-eps-dinh-hinh-14/
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-14%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-14/)
+17:14:02	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-14%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-14/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=363
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=363 to https://xopepsminhdang.com/xop-eps-dinh-hinh-13/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-13%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-13/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-13%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-13/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=361
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=361 to https://xopepsminhdang.com/xop-eps-dinh-hinh-12/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-12%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-12/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-12%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-12/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=359
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=359 to https://xopepsminhdang.com/xop-eps-dinh-hinh-11/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-11%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-11/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-11%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-11/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=357
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=357 to https://xopepsminhdang.com/xop-eps-dinh-hinh-10/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-10%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-10/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-10%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-10/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=355
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=355 to https://xopepsminhdang.com/xop-eps-dinh-hinh-9/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-9%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-9/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-9%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-9/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=353
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=353 to https://xopepsminhdang.com/xop-eps-dinh-hinh-8/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-8%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-8/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-8%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-8/)
+17:14:03	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=351
+17:14:03	Warning: 	File has moved from https://xopepsminhdang.com/?p=351 to https://xopepsminhdang.com/xop-eps-dinh-hinh-7/
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-7%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-7/)
+17:14:03	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-7%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-7/)
+17:14:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-json/wp/v2/product/349 (from https://xopepsminhdang.com/xop-eps-dinh-hinh-6/)
+17:14:04	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=349
+17:14:04	Warning: 	File has moved from https://xopepsminhdang.com/?p=349 to https://xopepsminhdang.com/xop-eps-dinh-hinh-6/
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-6%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-6/)
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-6%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-6/)
+17:14:04	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=430
+17:14:04	Warning: 	File has moved from https://xopepsminhdang.com/?p=430 to https://xopepsminhdang.com/xop-eps-dang-khoi-m7/
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m7%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m7/)
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m7%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m7/)
+17:14:04	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps-dang-khoi/
+17:14:04	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps-dang-khoi/ to https://xopepsminhdang.com/xop-eps-dang-khoi/
+17:14:04	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=428
+17:14:04	Warning: 	File has moved from https://xopepsminhdang.com/?p=428 to https://xopepsminhdang.com/xop-eps-dang-khoi-m6/
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m6%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m6/)
+17:14:04	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m6%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m6/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=426
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=426 to https://xopepsminhdang.com/xop-eps-dang-khoi-m5/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m5%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m5/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m5%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m5/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=424
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=424 to https://xopepsminhdang.com/xop-eps-dang-khoi-m4/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m4%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m4/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m4%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m4/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=422
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=422 to https://xopepsminhdang.com/xop-eps-dang-khoi-m3/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m3%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m3/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m3%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m3/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=419
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=419 to https://xopepsminhdang.com/xop-eps-dang-khoi-m2/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m2%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m2/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m2%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m2/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=416
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=416 to https://xopepsminhdang.com/xop-eps-dang-khoi-m1/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m1%2F (from https://xopepsminhdang.com/xop-eps-dang-khoi-m1/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dang-khoi-m1%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dang-khoi-m1/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=307
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=307 to https://xopepsminhdang.com/xop-eps-dang-khoi/
+17:14:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/xop-eps-ton-nen/feed/ (from https://xopepsminhdang.com/xop-eps-ton-nen/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=475
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=475 to https://xopepsminhdang.com/xop-eps-ton-nen/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-ton-nen%2F (from https://xopepsminhdang.com/xop-eps-ton-nen/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-ton-nen%2F&format=xml (from https://xopepsminhdang.com/xop-eps-ton-nen/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps-don-nen/
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps-don-nen/ to https://xopepsminhdang.com/xop-eps-don-nen/
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps-ton-nen/
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps-ton-nen/ to https://xopepsminhdang.com/xop-eps-ton-nen/
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=409
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=409 to https://xopepsminhdang.com/xop-eps-don-nen/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-don-nen%2F (from https://xopepsminhdang.com/xop-eps-don-nen/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-don-nen%2F&format=xml (from https://xopepsminhdang.com/xop-eps-don-nen/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=473
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=473 to https://xopepsminhdang.com/xop-eps-dong-goi-thiet-bi/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dong-goi-thiet-bi%2F (from https://xopepsminhdang.com/xop-eps-dong-goi-thiet-bi/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dong-goi-thiet-bi%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dong-goi-thiet-bi/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=344
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=344 to https://xopepsminhdang.com/xop-eps-dinh-hinh-4/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-4%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-4/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-4%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-4/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=334
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=334 to https://xopepsminhdang.com/xop-eps-dinh-hinh-3/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-3%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-3/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-3%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-3/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=324
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=324 to https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-loai-dai/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-dinh-hinh-loai-dai%2F (from https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-loai-dai/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-dinh-hinh-loai-dai%2F&format=xml (from https://xopepsminhdang.com/goc-xop-eps-dinh-hinh-loai-dai/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/goc-xop-eps-chen-hang/
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/goc-xop-eps-chen-hang/ to https://xopepsminhdang.com/goc-xop-eps-chen-hang/
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=322
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=322 to https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-goi-tuong/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-dong-goi-tuong%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-goi-tuong/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-dong-goi-tuong%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-goi-tuong/)
+17:14:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-content/uploads/2025/03/IMG_20250331_173611-100x100.jpg (from https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-goi-tuong/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=318
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=318 to https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-hang-trang-tri/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-dong-hang-trang-tri%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-hang-trang-tri/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-dong-hang-trang-tri%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-dong-hang-trang-tri/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=311
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=311 to https://xopepsminhdang.com/goc-xop-eps-chen-hang/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-chen-hang%2F (from https://xopepsminhdang.com/goc-xop-eps-chen-hang/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fgoc-xop-eps-chen-hang%2F&format=xml (from https://xopepsminhdang.com/goc-xop-eps-chen-hang/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=17
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=17 to https://xopepsminhdang.com/tai-khoan/
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=328
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=328 to https://xopepsminhdang.com/xop-eps-dinh-hinh-2/
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-2%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-2/)
+17:14:05	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-2%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-2/)
+17:14:05	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=463
+17:14:05	Warning: 	File has moved from https://xopepsminhdang.com/?p=463 to https://xopepsminhdang.com/minh-dang-chuyen-san-xuat-gia-cong-xop-eps-dinh-hinh-dong-goi-hang-hoa-cach-nhiet-chong-am-chong-soc/
+17:14:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fminh-dang-chuyen-san-xuat-gia-cong-xop-eps-dinh-hinh-dong-goi-hang-hoa-cach-nhiet-chong-am-chong-soc%2F (from https://xopepsminhdang.com/minh-dang-chuyen-san-xuat-gia-cong-xop-eps-dinh-hinh-dong-goi-hang-hoa-cach-nhiet-chong-am-chong-soc/)
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=453
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=453 to https://xopepsminhdang.com/xop-eps-minh-dang-chong-nang-cach-nhiet-giai-phap-hieu-qua-bao-ve-cong-trinh-khoi-tac-dong-mat-troi/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=444
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=444 to https://xopepsminhdang.com/xop-eps-ton-nen-minh-dang-giai-phap-toi-uu-cho-moi-cong-trinh-xay-dung/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=385
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=385 to https://xopepsminhdang.com/tai-sao-nen-dung-xop-cach-nhiet-eps-minh-dang-cho-cong-trinh-chong-nong/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=479
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=479 to https://xopepsminhdang.com/thi-cong-xop-eps-cach-nhiet-chong-nong-nhu-nao-de-dat-hieu-qua-toi-uu/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=392
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=392 to https://xopepsminhdang.com/huong-dan-chong-nong-hieu-qua-cho-can-nha-moi-xay-bang-chat-lieu-xop-eps/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=267
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=267 to https://xopepsminhdang.com/xop-eps-minh-dang-giai-phap-dong-goi-hoan-hao-nang-tam-gia-tri-doanh-nghiep-cua-ban/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=265
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=265 to https://xopepsminhdang.com/xop-eps-minh-dang-chong-soc-cach-nhiet-tiet-kiem-chi-phi/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=263
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=263 to https://xopepsminhdang.com/bi-quyet-van-chuyen-hang-hoa-di-muon-noi-ma-khong-so-be-vo-mop-meo/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=261
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=261 to https://xopepsminhdang.com/xop-eps-minh-dang-giai-phap-toi-uu-cho-moi-cong-trinh/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=259
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=259 to https://xopepsminhdang.com/but-pha-doanh-thu-chinh-phuc-khach-hang-nho-dong-goi-van-chuyen-bang-xop-eps/
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=346
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=346 to https://xopepsminhdang.com/xop-eps-dinh-hinh-5/
+17:14:07	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-5%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-5/)
+17:14:07	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-5%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-5/)
+17:14:07	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=330
+17:14:07	Warning: 	File has moved from https://xopepsminhdang.com/?p=330 to https://xopepsminhdang.com/xop-eps-dinh-hinh-1/
+17:14:07	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-1%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-1/)
+17:14:07	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-1%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-1/)
+17:14:08	Warning: 	Moved Permanently for https://xopepsminhdang.com/?p=332
+17:14:08	Warning: 	File has moved from https://xopepsminhdang.com/?p=332 to https://xopepsminhdang.com/xop-eps-dinh-hinh-2-2/
+17:14:08	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-2-2%2F (from https://xopepsminhdang.com/xop-eps-dinh-hinh-2-2/)
+17:14:08	Error: 	"Not Found" (404) at link https://xopepsminhdang.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fxopepsminhdang.com%2Fxop-eps-dinh-hinh-2-2%2F&format=xml (from https://xopepsminhdang.com/xop-eps-dinh-hinh-2-2/)
+17:14:08	Warning: 	Moved Permanently for https://xopepsminhdang.com/the-san-pham/xop-eps/page/1/
+17:14:08	Warning: 	File has moved from https://xopepsminhdang.com/the-san-pham/xop-eps/page/1/ to https://xopepsminhdang.com/the-san-pham/xop-eps/
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 49 seconds : 699 links scanned, 541 files written (113259796 bytes overall) [104430261 bytes received at 617930 bytes/sec], 12192193 bytes transferred using HTTP compression in 386 files, ratio 22%, 41.1 requests per connection
+(85 errors, 135 warnings, 0 messages)
