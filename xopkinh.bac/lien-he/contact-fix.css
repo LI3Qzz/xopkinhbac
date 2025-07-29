@@ -1,0 +1,274 @@
+/* CSS để sắp xếp layout contact form như trong ảnh - Override theme styles */
+
+/* Container chính - Override theme max-width */
+.contact {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin: 30px 0;
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: none !important; /* Override theme max-width */
+}
+
+/* Row chính chứa form và bản đồ - Override theme styles */
+.contact .row.top {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: none !important; /* Override theme max-width */
+    width: 100% !important;
+}
+
+/* Cột form bên trái - Override theme grid */
+.contact .grid4 {
+    flex: 1 !important;
+    min-width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    float: none !important; /* Override theme float */
+    width: auto !important; /* Override theme width */
+    box-sizing: border-box;
+}
+
+/* Cột bản đồ bên phải - Override theme grid */
+.contact .grid8 {
+    flex: 2 !important;
+    min-width: 400px;
+    float: none !important; /* Override theme float */
+    width: auto !important; /* Override theme width */
+    padding-left: 0 !important; /* Override theme padding */
+    box-sizing: border-box;
+}
+
+/* Form styling - Override theme styles */
+.contact .form {
+    width: 100%;
+}
+
+.contact .contact_table {
+    width: 100%;
+}
+
+.contact .mbl {
+    margin-bottom: 20px;
+}
+
+.contact .mbl label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact .txtinput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: auto !important; /* Override theme height */
+    line-height: normal !important; /* Override theme line-height */
+}
+
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 100px;
+    box-sizing: border-box;
+    height: auto !important; /* Override theme height */
+}
+
+/* Nút gửi - Override theme styles */
+.contact .btn {
+    background: #e74c3c !important;
+    color: white !important;
+    padding: 12px 30px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: background 0.3s ease;
+    text-transform: none !important; /* Override theme text-transform */
+}
+
+.contact .btn:hover {
+    background: #c0392b !important;
+}
+
+/* Bản đồ - Override theme styles */
+.contact .map-warrap {
+    margin-bottom: 20px;
+}
+
+.contact .map-canvas {
+    width: 100% !important;
+    height: 400px !important;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Thông tin địa chỉ - Override theme styles */
+.contact .address_list {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact .adress_item h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: none !important; /* Override theme text-transform */
+}
+
+.contact .adress_item p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.contact .adress_item b {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Responsive - Override theme responsive */
+@media (max-width: 768px) {
+    .contact .row.top {
+        flex-direction: column !important;
+    }
+    
+    .contact .grid4,
+    .contact .grid8 {
+        min-width: auto;
+        width: 100% !important;
+        float: none !important;
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+    
+    .contact {
+        padding: 20px;
+        margin: 15px 0;
+    }
+}
+
+/* Đảm bảo hiển thị - Override theme hidden styles */
+.contact .region {
+    display: block !important;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact .pll {
+    width: 100%;
+    padding-left: 0 !important; /* Override theme padding */
+}
+
+.contact .address {
+    width: 100%;
+    border: none !important; /* Override theme border */
+    background: transparent !important; /* Override theme background */
+    padding: 0 !important; /* Override theme padding */
+    margin: 0 !important; /* Override theme margin */
+}
+
+.contact .clear {
+    clear: both;
+}
+
+/* Override theme container max-width for contact page */
+.page-template-default .contact,
+.page-template-default .contact .row.top {
+    max-width: none !important;
+}
+
+/* Ensure contact form is not affected by theme's global styles */
+.contact * {
+    box-sizing: border-box;
+}
+
+/* Override any theme flexbox conflicts */
+.contact .row.top {
+    flex-wrap: nowrap !important;
+}
+
+@media (max-width: 768px) {
+    .contact .row.top {
+        flex-wrap: wrap !important;
+    }
+}
+
+/* Additional overrides for Flatsome theme */
+.container .contact,
+.row .contact {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* Override theme's grid system */
+.contact .grid4,
+.contact .grid8 {
+    position: relative !important;
+    display: block !important;
+}
+
+/* Ensure proper spacing */
+.contact .row.top {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Override theme's button styles */
+.contact .btn,
+.contact .btn:hover,
+.contact .btn:focus {
+    background: #e74c3c !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Override theme's form styles */
+.contact input,
+.contact textarea {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    color: #333 !important;
+}
+
+/* Override theme's responsive breakpoints */
+@media (max-width: 900px) {
+    .contact .grid4,
+    .contact .grid8 {
+        width: 100% !important;
+        float: none !important;
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+    
+    .contact .row.top {
+        flex-direction: column !important;
+    }
+} 

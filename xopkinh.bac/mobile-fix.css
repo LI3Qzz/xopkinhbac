@@ -1,0 +1,320 @@
+/* Mobile Menu Fix - Sửa lỗi responsive cho mobile menu */
+
+/* Đảm bảo mobile menu button luôn hiển thị trên mobile */
+@media (max-width: 849px) {
+    .nav-icon.has-icon {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        position: relative !important;
+        z-index: 999 !important;
+    }
+    
+    .mobile-nav {
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    /* Đảm bảo mobile menu có thể mở */
+    #main-menu.mobile-sidebar {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 999999 !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: rgba(0,0,0,0.8) !important;
+    }
+    
+    /* Sửa lỗi mfp-hide có thể ẩn menu */
+    #main-menu.mfp-hide {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    
+    /* Đảm bảo mobile menu button có thể click */
+    .nav-icon.has-icon a {
+        cursor: pointer !important;
+        pointer-events: auto !important;
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: relative !important;
+        z-index: 1000 !important;
+    }
+    
+    /* Tăng kích thước touch target cho mobile */
+    .nav-icon.has-icon a {
+        min-width: 44px !important;
+        min-height: 44px !important;
+        padding: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    /* Đảm bảo icon menu hiển thị */
+    .nav-icon.has-icon i.icon-menu {
+        display: inline-block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        font-size: 20px !important;
+        color: #333 !important;
+    }
+}
+
+/* Sửa lỗi cho màn hình nhỏ hơn */
+@media (max-width: 549px) {
+    .nav-icon.has-icon {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    /* Đảm bảo mobile menu luôn có thể mở */
+    #main-menu {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 999999 !important;
+        background: rgba(0,0,0,0.8) !important;
+    }
+    
+    /* Sửa lỗi cho mobile sidebar */
+    .mobile-sidebar {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    /* Đảm bảo menu items có thể click */
+    .mobile-sidebar .nav-sidebar li a {
+        cursor: pointer !important;
+        pointer-events: auto !important;
+        min-height: 44px !important;
+        padding: 12px 15px !important;
+        display: block !important;
+    }
+}
+
+/* Sửa lỗi cho tablet */
+@media (min-width: 550px) and (max-width: 849px) {
+    .nav-icon.has-icon {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    /* Đảm bảo mobile menu hoạt động trên tablet */
+    #main-menu {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 999999 !important;
+    }
+}
+
+/* Sửa lỗi JavaScript có thể bị lỗi */
+.mfp-hide {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Đảm bảo mobile menu button luôn hiển thị */
+.show-for-medium {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Sửa lỗi cho mobile navigation */
+.mobile-nav .nav-icon {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Đảm bảo mobile menu có thể mở bằng JavaScript */
+#main-menu.mobile-sidebar {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 999999 !important;
+    background: rgba(0,0,0,0.8) !important;
+    transition: opacity 0.3s ease !important;
+}
+
+#main-menu.mobile-sidebar:not(.mfp-hide) {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Sửa lỗi cho mobile menu content */
+.mobile-sidebar .sidebar-menu {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: white !important;
+    width: 80% !important;
+    max-width: 300px !important;
+    height: 80% !important;
+    overflow-y: auto !important;
+    position: relative !important;
+    z-index: 1000000 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+}
+
+/* Đảm bảo menu items có thể click */
+.mobile-sidebar .nav-sidebar li {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.mobile-sidebar .nav-sidebar li a {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    padding: 15px 20px !important;
+    border-bottom: 1px solid #eee !important;
+    color: #333 !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    min-height: 44px !important;
+}
+
+/* Hover effect cho menu items */
+.mobile-sidebar .nav-sidebar li a:hover {
+    background-color: #f5f5f5 !important;
+    color: #000 !important;
+}
+
+/* Sửa lỗi cho submenu */
+.mobile-sidebar .sub-menu {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding-left: 20px !important;
+}
+
+.mobile-sidebar .sub-menu li a {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    color: #666 !important;
+}
+
+/* Đảm bảo mobile menu button có icon hiển thị */
+.nav-icon.has-icon i.icon-menu {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: 20px !important;
+    color: #333 !important;
+}
+
+/* Sửa lỗi cho mobile menu overlay */
+.mobile-sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+/* Đảm bảo mobile menu có thể đóng */
+.mobile-sidebar .close-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+/* Responsive cho các kích thước màn hình khác nhau */
+@media (max-width: 480px) {
+    .mobile-sidebar .sidebar-menu {
+        width: 90% !important;
+        max-width: none !important;
+    }
+    
+    .mobile-sidebar .nav-sidebar li a {
+        padding: 18px 20px !important;
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 850px) {
+    .mobile-nav {
+        display: none !important;
+    }
+    
+    #main-menu.mobile-sidebar {
+        display: none !important;
+    }
+}
+
+/* Thêm CSS cho touch events */
+@media (hover: none) and (pointer: coarse) {
+    .nav-icon.has-icon a {
+        min-width: 48px !important;
+        min-height: 48px !important;
+        padding: 12px !important;
+    }
+    
+    .mobile-sidebar .nav-sidebar li a {
+        min-height: 48px !important;
+        padding: 16px 20px !important;
+    }
+}
+
+/* Đảm bảo mobile menu không bị ẩn bởi các element khác */
+.nav-icon.has-icon {
+    position: relative !important;
+    z-index: 999 !important;
+}
+
+/* Sửa lỗi cho iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    .nav-icon.has-icon a {
+        -webkit-tap-highlight-color: transparent !important;
+    }
+    
+    .mobile-sidebar .nav-sidebar li a {
+        -webkit-tap-highlight-color: rgba(0,0,0,0.1) !important;
+    }
+} 

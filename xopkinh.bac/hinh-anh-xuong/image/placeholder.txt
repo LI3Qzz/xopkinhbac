@@ -1,0 +1,12 @@
+Thư mục này chứa các hình ảnh nhà xưởng sản xuất.
+
+Các file hình ảnh cần có:
+- xuong-san-xuat-1.jpg
+- may-san-xuat-1.jpg  
+- kho-thanh-pham-1.jpg
+- quy-trinh-san-xuat-1.jpg
+- kiem-tra-chat-luong-1.jpg
+- van-chuyen-1.jpg
+
+Kích thước khuyến nghị: 600x400px
+Format: JPG hoặc WebP 
