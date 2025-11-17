@@ -1,0 +1,38 @@
+# Mapping chính xác dựa trên website gốc
+# Format: ký_tự_lỗi|ký_tự_đúng
+
+# Các cụm từ dài (ưu tiên cao nhất)
+X?P EPS Ð?NH HÌNH|Xốp EPS Định Hình
+X?P EPS �?NH H�NH|Xốp EPS Định Hình
+x?p EPS ð?nh hình|xốp EPS định hình
+Blox D?ng Kh?i|Blox Dạng Khối
+blox d?ng kh?i|blox dạng khối
+Hàng Ðóng Gói|Hàng Đóng Gói
+hàng ðóng gói|hàng đóng gói
+H�ng ��ng G�i|Hàng Đóng Gói
+h�ng ��ng g�i|hàng đóng gói
+
+# Các từ đơn
+X?P EPS|Xốp EPS
+x?p EPS|xốp EPS
+X?p|Xốp
+x?p|xốp
+Ð?NH|Định
+ð?nh|định
+�?NH|Định
+D?ng|Dạng
+d?ng|dạng
+Kh?i|Khối
+kh?i|khối
+Ðóng|Đóng
+ðóng|đóng
+��ng|Đóng
+G�i|Gói
+g�i|gói
+H�ng|Hàng
+h�ng|hàng
+
+# Các ký tự đơn lẻ (ưu tiên thấp nhất)
+Ð|Đ
+ð|đ
+�|Đ

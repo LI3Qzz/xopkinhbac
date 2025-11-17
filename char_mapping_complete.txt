@@ -1,0 +1,28 @@
+# Mapping đầy đủ các ký tự tiếng Việt bị lỗi
+# Format: ký_tự_lỗi|ký_tự_đúng
+
+# Các cụm từ dài (ưu tiên thay thế trước)
+Xốp EPS Ðảnh Hình|Xốp EPS Định Hình
+xốp EPS ðảnh hình|xốp EPS định hình
+Hàng Ðóng Gói|Hàng Đóng Gói
+hàng ðóng gói|hàng đóng gói
+Xốp EPS Ðóng Gói|Xốp EPS Đóng Gói
+xốp EPS ðóng gói|xốp EPS đóng gói
+Ðảnh Hình Hệp Ðóng|Định Hình Hộp Đóng
+ðảnh hình hệp ðóng|định hình hộp đóng
+S?n phệm|Sản phẩm
+s?n phệm|sản phẩm
+
+# Các từ đơn
+Ðóng|Đóng
+ðóng|đóng
+Ðảnh|Định
+ðảnh|định
+Hệp|Hộp
+hệp|hộp
+phệm|phẩm
+Phệm|Phẩm
+
+# Thay thế ký tự đơn (cuối cùng)
+Ð|Đ
+ð|đ
