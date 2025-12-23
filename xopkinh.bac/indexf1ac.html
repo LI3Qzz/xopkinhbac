@@ -5,10 +5,115 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8"><META HTTP-EQUIV="Refresh" CONTENT="0; URL=tai-sao-nen-dung-xop-cach-nhiet-eps-minh-dang-cho-cong-trinh-chong-nong/index.html"><TITLE>Page has moved</TITLE>
-</HEAD>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17732698416"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-17732698416');
+</script>
+<style>
+/* Floating Call Button */
+.floating-call-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.floating-call-button.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.floating-call-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.floating-call-button a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.floating-call-button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: inherit;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-call-button {
+        width: 55px;
+        height: 55px;
+        bottom: 15px;
+        right: 15px;
+    }
+    .floating-call-button a {
+        font-size: 24px;
+    }
+}
+</style>
+</head>
 <BODY>
 <A HREF="tai-sao-nen-dung-xop-cach-nhiet-eps-minh-dang-cho-cong-trinh-chong-nong/index.html"><h3>Click here...</h3></A>
-</BODY>
+<!-- Floating Call Button -->
+<div class="floating-call-button" id="floatingCallBtn">
+    <a href="tel:0975569136" onclick="gtag('event', 'conversion', {'send_to': 'AW-17732698416/call'});">
+        ðŸ“ž
+    </a>
+</div>
+
+<script>
+// Show/hide floating button on scroll
+window.addEventListener('scroll', function() {
+    var floatingBtn = document.getElementById('floatingCallBtn');
+    if (window.pageYOffset > 300) {
+        floatingBtn.classList.add('show');
+    } else {
+        floatingBtn.classList.remove('show');
+    }
+});
+</script>
+</body>
 <!-- Created by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
 
 <!-- Mirrored from xopkinh.bac/?p=385 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jul 2025 10:14:07 GMT -->
