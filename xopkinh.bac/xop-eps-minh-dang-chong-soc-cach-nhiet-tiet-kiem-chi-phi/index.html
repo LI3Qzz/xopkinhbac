@@ -413,81 +413,82 @@ gtag('js', new Date());
 gtag('config', 'AW-17732698416');
 </script>
 <style>
-/* Floating Call Button */
-.floating-call-button {
+</style>
+<style>
+</style>
+<style>
+/* Floating Buttons Group */
+.floating-buttons-group {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9998;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.4s ease;
+}
+
+.floating-buttons-group.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.floating-btn {
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     cursor: pointer;
-    z-index: 9999;
     transition: all 0.3s ease;
-    opacity: 0;
-    transform: translateY(100px);
+    position: relative;
 }
 
-.floating-call-button.show {
-    opacity: 1;
-    transform: translateY(0);
+.floating-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
-.floating-call-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-}
-
-.floating-call-button a {
+.floating-btn a {
     color: white;
-    font-size: 28px;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    font-size: 24px;
 }
 
-.floating-call-button::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: inherit;
-    animation: pulse 2s infinite;
+.floating-btn.phone {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1.1);
-        opacity: 0.7;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+.floating-btn.zalo {
+    background: linear-gradient(135deg, #0068FF 0%, #0180F7 100%);
+}
+
+.floating-btn.email {
+    background: linear-gradient(135deg, #EA4335 0%, #C5221F 100%);
 }
 
 @media (max-width: 768px) {
-    .floating-call-button {
-        width: 55px;
-        height: 55px;
-        bottom: 15px;
+    .floating-buttons-group {
+        bottom: 70px;
         right: 15px;
+        gap: 10px;
     }
-    .floating-call-button a {
-        font-size: 24px;
+    .floating-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .floating-btn a {
+        font-size: 20px;
     }
 }
 </style>
@@ -1008,21 +1009,40 @@ var flatsomePjax = {"cache_bust":false,"elements":["#wrapper"],"entries":[{"sele
 <script type="text/javascript" src="../wp-content/themes/flatsome/assets/js/woocommercefa29.js?ver=dd6035ce106022a74757" id="flatsome-theme-woocommerce-js-js"></script>
 <script type="text/javascript" src="../wp-includes/js/comment-reply.mind1c0.js?ver=6.7.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
 
-<!-- Floating Call Button -->
-<div class="floating-call-button" id="floatingCallBtn">
-    <a href="tel:0337154318" onclick="gtag('event', 'conversion', {'send_to': 'AW-17732698416/call'});">
-        ðŸ“ž
-    </a>
+
+
+<!-- Floating Buttons Group -->
+<div class="floating-buttons-group" id="floatingBtnsGroup">
+    <!-- Phone Button -->
+    <div class="floating-btn phone" title="Gá»i: 0337154318">
+        <a href="tel:0337154318" onclick="gtag('event', 'conversion', {'send_to': 'AW-17732698416/call'});">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+        </a>
+    </div>
+    
+    <!-- Zalo Button -->
+    <div class="floating-btn zalo" title="Chat Zalo: 0337154318">
+        <a href="https://zalo.me/0337154318" target="_blank" onclick="gtag('event', 'conversion', {'send_to': 'AW-17732698416/zalo'});">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2 22l5.71-.97C9 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.38 0-2.68-.31-3.85-.85l-.28-.14-2.85.48.48-2.85-.14-.28C4.31 14.68 4 13.38 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/><path d="M8 10h2v5H8zm3 0h2v5h-2zm3 0h2v5h-2z"/></svg>
+        </a>
+    </div>
+    
+    <!-- Email Button -->
+    <div class="floating-btn email" title="Email: nhuaxopkinhbac@gmail.com">
+        <a href="mailto:nhuaxopkinhbac@gmail.com" onclick="gtag('event', 'conversion', {'send_to': 'AW-17732698416/email'});">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+    </div>
 </div>
 
 <script>
-// Show/hide floating button on scroll
+// Show/hide floating buttons on scroll
 window.addEventListener('scroll', function() {
-    var floatingBtn = document.getElementById('floatingCallBtn');
-    if (window.pageYOffset > 300) {
-        floatingBtn.classList.add('show');
-    } else {
-        floatingBtn.classList.remove('show');
+    var floatingBtns = document.getElementById('floatingBtnsGroup');
+    if (floatingBtns && window.pageYOffset > 300) {
+        floatingBtns.classList.add('show');
+    } else if (floatingBtns) {
+        floatingBtns.classList.remove('show');
     }
 });
 </script>
