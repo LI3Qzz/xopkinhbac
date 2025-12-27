@@ -1,0 +1,16 @@
+﻿User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://xopkinhbac.com/sitemap.xml
+
+# Disallow admin pages
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+
+# Allow CSS and JS
+Allow: /wp-content/uploads/
+Allow: *.css
+Allow: *.js
